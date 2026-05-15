@@ -77,6 +77,15 @@ Open `index.html` directly in a browser. No build step is required. Because the 
 
 The app is intentionally simple. HTML files define the main pages, `styles.css` controls layout and visual design, and `script.js` stores course data, renders dynamic sections, handles filters, manages the lesson player, and controls login/signup behavior.
 
+Screenshots-
+
+<img width="722" height="657" alt="image" src="https://github.com/user-attachments/assets/f791f74c-9f5a-42d4-9336-ce94acee4e19" />
+<img width="1471" height="714" alt="image" src="https://github.com/user-attachments/assets/63ad8ad4-bc26-47f9-8995-6299c7fc98c6" />
+<img width="1183" height="711" alt="image" src="https://github.com/user-attachments/assets/47c26e3e-a44e-4f09-a3ca-b483c24d1c3c" />
+
+
+
+
 ## Future Improvements
 
 Good next steps would include a real backend, persistent user accounts, saved course completion, quiz pages, certificates, instructor dashboards, comments, bookmarks, and deployment through GitHub Pages or another static hosting service.
