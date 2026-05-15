@@ -17,7 +17,7 @@ E-learning Platform is a responsive, static learning dashboard built with HTML, 
 
 ## Overview
 
-The website is organized around a student named Anaya who is following a frontend certificate track. The dashboard introduces the current learning module, active courses, completed lessons, weekly progress, recommended courses, and a daily agenda. The course catalog contains realistic course data with categories, difficulty levels, lesson counts, durations, instructor names, completion percentages, preview images, and direct course actions. The progress page summarizes completion across every course, while the lesson page loads tutorial videos based on the course selected by the learner.
+The website is organized around a student who is following a frontend certificate track. The dashboard introduces the current learning module, active courses, completed lessons, weekly progress, recommended courses, and a daily agenda. The course catalog contains realistic course data with categories, difficulty levels, lesson counts, durations, instructor names, completion percentages, preview images, and direct course actions. The progress page summarizes completion across every course, while the lesson page loads tutorial videos based on the course selected by the learner.
 
 ## Main Features
 
