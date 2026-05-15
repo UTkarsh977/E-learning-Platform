@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LearnSphere | Progress</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="progress">
+  <aside class="sidebar">
+    <a class="brand" href="index.html"><span class="brand-mark">LS</span><span>LearnSphere</span></a>
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="nav-link" href="index.html"><span class="icon">D</span>Dashboard</a>
+      <a class="nav-link" href="courses.html"><span class="icon">C</span>Courses</a>
+      <a class="nav-link active" href="progress.html"><span class="icon">P</span>Progress</a>
+      <a class="nav-link" href="lesson.html"><span class="icon">V</span>Video</a>
+    </nav>
+    <div class="auth-actions" id="authLinks"></div>
+  </aside>
+
+  <main class="shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Progress tracking</p>
+        <h1>Measure momentum across every course</h1>
+      </div>
+      <div class="profile"><span class="profile-dot"></span><span>Certificate path</span></div>
+    </header>
+
+    <section class="progress-layout">
+      <div class="progress-summary">
+        <div class="ring" id="overallRing" style="--value:68">
+          <span>68%</span>
+        </div>
+        <div>
+          <p class="eyebrow">Overall completion</p>
+          <h2>22 lessons completed</h2>
+          <p class="muted">Finish two more video lessons to unlock the next responsive design assessment.</p>
+        </div>
+      </div>
+      <div class="progress-list" id="progressList"></div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

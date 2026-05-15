@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LearnSphere | Courses</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="courses">
+  <aside class="sidebar">
+    <a class="brand" href="index.html"><span class="brand-mark">LS</span><span>LearnSphere</span></a>
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="nav-link" href="index.html"><span class="icon">D</span>Dashboard</a>
+      <a class="nav-link active" href="courses.html"><span class="icon">C</span>Courses</a>
+      <a class="nav-link" href="progress.html"><span class="icon">P</span>Progress</a>
+      <a class="nav-link" href="lesson.html"><span class="icon">V</span>Video</a>
+    </nav>
+    <div class="auth-actions" id="authLinks"></div>
+  </aside>
+
+  <main class="shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Course catalog</p>
+        <h1>Choose the next skill to practice</h1>
+      </div>
+      <a class="primary-action" href="lesson.html">Open player</a>
+    </header>
+
+    <section class="toolbar" aria-label="Course filters">
+      <label class="search">
+        <span>Search courses</span>
+        <input id="courseSearch" type="search" placeholder="React, accessibility, analytics">
+      </label>
+      <div class="segments" role="group" aria-label="Difficulty filter">
+        <button class="segment active" type="button" data-filter="All">All</button>
+        <button class="segment" type="button" data-filter="Beginner">Beginner</button>
+        <button class="segment" type="button" data-filter="Intermediate">Intermediate</button>
+        <button class="segment" type="button" data-filter="Advanced">Advanced</button>
+      </div>
+    </section>
+
+    <section class="course-grid" id="courseGrid" aria-label="Available courses"></section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

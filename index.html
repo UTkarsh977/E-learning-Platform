@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LearnSphere | Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="dashboard">
+  <aside class="sidebar">
+    <a class="brand" href="index.html" aria-label="LearnSphere dashboard">
+      <span class="brand-mark">LS</span>
+      <span>LearnSphere</span>
+    </a>
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="nav-link active" href="index.html"><span class="icon">D</span>Dashboard</a>
+      <a class="nav-link" href="courses.html"><span class="icon">C</span>Courses</a>
+      <a class="nav-link" href="progress.html"><span class="icon">P</span>Progress</a>
+      <a class="nav-link" href="lesson.html"><span class="icon">V</span>Video</a>
+    </nav>
+    <div class="auth-actions" id="authLinks"></div>
+  </aside>
+
+  <main class="shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Student workspace</p>
+        <h1>Good morning, Anaya</h1>
+      </div>
+      <div class="profile">
+        <span class="profile-dot"></span>
+        <span>Frontend certificate track</span>
+      </div>
+    </header>
+
+    <section class="hero-band">
+      <div class="hero-copy">
+        <p class="eyebrow">Continue learning</p>
+        <h2>Build production-ready web interfaces, one focused lesson at a time.</h2>
+        <p>Your next lesson covers responsive course cards, image ratios, and readable mobile layouts.</p>
+        <a class="primary-action" href="lesson.html">Resume lesson</a>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="learning-card">
+          <span>Current module</span>
+          <strong>HTML, CSS, and Responsive Layouts</strong>
+          <p>82% complete with one practical lab left before the checkpoint quiz.</p>
+          <div class="bar"><span style="--progress:82%"></span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="metric-grid" aria-label="Learning summary">
+      <article class="metric">
+        <span class="metric-label">Courses active</span>
+        <strong>6</strong>
+      </article>
+      <article class="metric">
+        <span class="metric-label">Lessons done</span>
+        <strong id="completedLessons">22</strong>
+      </article>
+      <article class="metric">
+        <span class="metric-label">Weekly goal</span>
+        <strong>78%</strong>
+      </article>
+    </section>
+
+    <section class="content-grid">
+      <div>
+        <div class="section-heading">
+          <h2>Recommended next</h2>
+          <a href="courses.html">View all</a>
+        </div>
+        <div class="course-row" id="featuredCourses"></div>
+      </div>
+
+      <aside class="panel">
+        <h2>Today</h2>
+        <ul class="agenda" id="agendaList"></ul>
+      </aside>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

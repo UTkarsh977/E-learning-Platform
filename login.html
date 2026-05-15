@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LearnSphere | Login</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="login">
+  <main class="auth-page">
+    <section class="auth-panel">
+      <a class="brand auth-brand" href="index.html"><span class="brand-mark">LS</span><span>LearnSphere</span></a>
+      <p class="eyebrow">Welcome back</p>
+      <h1>Login to continue your courses</h1>
+      <form class="auth-form" id="loginForm">
+        <label>
+          <span>Email</span>
+          <input type="email" name="email" autocomplete="email" required>
+        </label>
+        <label>
+          <span>Password</span>
+          <input type="password" name="password" autocomplete="current-password" required>
+        </label>
+        <p class="auth-message" id="authMessage" role="status"></p>
+        <button class="primary-action" type="submit">Login</button>
+      </form>
+      <p class="auth-switch">New to LearnSphere? <a href="signup.html">Create an account</a></p>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

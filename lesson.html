@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LearnSphere | Video Lesson</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="lesson">
+  <aside class="sidebar">
+    <a class="brand" href="index.html"><span class="brand-mark">LS</span><span>LearnSphere</span></a>
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="nav-link" href="index.html"><span class="icon">D</span>Dashboard</a>
+      <a class="nav-link" href="courses.html"><span class="icon">C</span>Courses</a>
+      <a class="nav-link" href="progress.html"><span class="icon">P</span>Progress</a>
+      <a class="nav-link active" href="lesson.html"><span class="icon">V</span>Video</a>
+    </nav>
+    <div class="auth-actions" id="authLinks"></div>
+  </aside>
+
+  <main class="shell lesson-shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow" id="lessonEyebrow">Lesson player</p>
+        <h1 id="lessonTitle">Course lesson</h1>
+      </div>
+      <button class="primary-action button-action" id="completeLesson" type="button">Mark complete</button>
+    </header>
+
+    <section class="player-layout">
+      <div class="video-panel">
+        <iframe
+          id="lessonFrame"
+          src=""
+          title="Course tutorial"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen>
+        </iframe>
+      </div>
+      <aside class="playlist panel">
+        <h2>Course videos</h2>
+        <div id="lessonPlaylist"></div>
+      </aside>
+    </section>
+
+    <section class="notes">
+      <h2>Lesson notes</h2>
+      <p id="lessonNotes">Choose a course to load the matching tutorial videos.</p>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
