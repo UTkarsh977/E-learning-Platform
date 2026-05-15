@@ -42,6 +42,20 @@ The website is organized around a student who is following a frontend certificat
 
 `login.html` and `signup.html` provide the access flow. Course links send unauthenticated users to login first, then redirect them back to the lesson they wanted to open.
 
+#Tech Stack
+Frontend
+HTML5
+CSS3
+JavaScript (ES6)
+
+#Features
+Dynamic Course Rendering
+Search & Filtering
+Video Lesson System
+Progress Tracking
+Authentication Flow
+Query Parameter Routing
+
 ## Course Content
 
 The current catalog includes practical frontend and product-learning topics: HTML, CSS, responsive layouts, JavaScript fundamentals, React component systems, accessible product design, learning analytics dashboards, and advanced CSS architecture. Each course includes multiple tutorial video entries with providers and YouTube video IDs. The lesson player builds embed URLs automatically and supports video start times for specific sections.
