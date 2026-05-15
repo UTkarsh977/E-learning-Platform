@@ -1,5 +1,18 @@
 # E-learning Platform
 
+COMPANY - CODTECH IT SOLUTIONS
+
+NAME: UTKARSH KHANDELWAL
+
+INTERN ID: CTIS7615
+
+DOMAIN: FRONTEND WEB DEVELOPMENT
+
+DURATION: 8 WEEKS
+
+MENTOR: NEELA SANTOSH
+
+
 E-learning Platform is a responsive, static learning dashboard built with HTML, CSS, and JavaScript. It presents a complete student experience for browsing courses, tracking progress, watching tutorial videos, and accessing protected lessons through a lightweight login and signup flow. The project is designed as a clean frontend prototype that can run directly in a browser without installing packages, starting a server, or connecting to a database.
 
 ## Overview
