@@ -80,8 +80,9 @@ The app is intentionally simple. HTML files define the main pages, `styles.css` 
 Screenshots-
 
 <img width="722" height="657" alt="image" src="https://github.com/user-attachments/assets/f791f74c-9f5a-42d4-9336-ce94acee4e19" />
-<img width="1471" height="714" alt="image" src="https://github.com/user-attachments/assets/63ad8ad4-bc26-47f9-8995-6299c7fc98c6" />
-<img width="1183" height="711" alt="image" src="https://github.com/user-attachments/assets/47c26e3e-a44e-4f09-a3ca-b483c24d1c3c" />
+<img width="721" height="714" alt="image" src="https://github.com/user-attachments/assets/63ad8ad4-bc26-47f9-8995-6299c7fc98c6" />
+<img width="722" height="711" alt="image" src="https://github.com/user-attachments/assets/47c26e3e-a44e-4f09-a3ca-b483c24d1c3c" />
+<img width="723" height="706" alt="image" src="https://github.com/user-attachments/assets/c6e5337d-28b5-4a4f-8f3e-895f030c63d1" />
 
 
 
